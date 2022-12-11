@@ -42,7 +42,7 @@ export const createProduct = async (
         name,
         description,
         price,
-        img: req.file?.fieldname as string,
+        img: req.file?.filename as string,
         category: {
           connect: {
             id: catId,

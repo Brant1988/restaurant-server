@@ -1,0 +1,8 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": ["plugin:@typrescriipt-eslint/recommended"],
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    }
+}

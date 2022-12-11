@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "module": "NodeNext",
+      "target": "ES2018",
+      "sourceMap": true,
+      "rootDir": "./src",
+      "outDir": "./build",
+      "resolveJsonModule": true,
+      "removeComments": true,
+      "strict": true,
+      "lib": ["esnext"],
+      "esModuleInterop": true
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules"],
+    "ts-node": {
+      "esm": true
+    }
+  }

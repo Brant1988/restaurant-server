@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx nodemon",
-    "build": "npm run rimfaf ./build && npx tsc",
+    "build": "rimfaf ./build && npx tsc",
     "start": "npm run build && node build/main ",
     "lint": "npx eslint ./src",
     "format": "npx eslint ./src --fix"
